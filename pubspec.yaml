@@ -1,4 +1,4 @@
-name: flutterapp
+name: flutterApp
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_screenutil: ^5.9.3
 
   #A build system for Dart code generation and modular compilation
 build_runner: ^2.16.1
@@ -50,6 +51,9 @@ pretty_dio_logger: ^1.4.0
 # localization
 intl: ^0.20.3
 easy_localization: ^3.0.8
+flutter_svg : ^2.3.0
+#Let your UI display a reasonable layout on different screen sizes!
+flutter_screenutil : ^5.9.3
   # for splash screen
 
   # The following adds the Cupertino Icons font to your application.
